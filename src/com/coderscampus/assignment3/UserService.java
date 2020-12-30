@@ -27,7 +27,7 @@ public class UserService {
 
         BufferedReader fileReader = null;
         try {
-            fileReader = new BufferedReader(new FileReader("src/com/coderscampus/Assignment3/data.txt"));
+            fileReader = new BufferedReader(new FileReader("src/com/coderscampus/assignment3/data.txt"));
 
             String line;
             int i = 0;
